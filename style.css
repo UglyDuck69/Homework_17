@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 152px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.26px;
+    margin-left: 141px;
+    margin-top: 5px;
+}
+.table{
+    margin-top: 23px;
+    margin-left: 141px;
+    border-top: 1px solid #DADADA;
+
+    border-left: 1px solid #DADADA;
+
+}
+.id{
+    width: 72px;
+    height: 57px;
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    background-color: #f9f9f9;
+}
+.title{
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    background-color: #f9f9f9;
+    width: 444px;
+    height: 57px;
+    margin-left: 23px;
+    margin-top: 21;
+    text-align: left;
+}
+.created{
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    background-color: #f9f9f9;
+    width: 276px;
+    height: 57px;
+
+}
+.action{
+    width: 368px;
+    height: 57px;
+    border-bottom: 1px solid #DADADA;
+    border-right:1px solid #DADADA;
+    background-color: #f9f9f9;
+
+}
+.definition{
+    border-bottom: 1px solid #DADADA;
+    border-right:1px solid #DADADA;
+}
+.number{
+    border-right: 1px solid #DADADA;
+    text-align: center;
+    width: 72px;
+    height: 57px;
+    border-bottom: 1px solid #DADADA;
+    border-right:1px solid #DADADA;
+}
+.time{
+    width: 86px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    border-right:1px solid #DADADA;}
+.actionbar{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    border-bottom: 1px solid #DADADA;
+    border-right:1px solid #DADADA;    height: 57px;
+}
+.edit{
+    margin-top: 10px;
+    width: 115px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #FFD43A;
+    text-align: center;
+    color: #000000;
+}
+p {
+    margin-top: 10px;
+}
+.delete{
+    margin-top: 10px;
+    width: 115px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #E84949;
+    text-align: center;
+    color: #ffffff;
+}
